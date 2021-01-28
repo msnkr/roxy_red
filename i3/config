@@ -33,7 +33,7 @@ bindsym $mod+Return exec terminal
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec rofi -show drun -theme solarized-darker
+bindsym $mod+d exec rofi -show drun -theme ~/.config/rofi/colors-rofi-dark.rasi
 
 
 # launch categorized menu
@@ -192,6 +192,7 @@ assign [class="URxvt"] $ws2
 exec_always urxvt
 assign [class="Code"] $ws3
 exec_always code
+assign [class="Google-chrome"] $ws4
 
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1

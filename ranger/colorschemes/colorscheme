@@ -1,28 +1,27 @@
 {
-    "wallpaper": "/home/mikyle/Pictures/wallpaperflare.com_wallpaper (7).jpg",
+    "wallpaper": "/home/mikyle/Pictures/29bb2398-dcd3-44b3-8177-715532fca94yfye.png",
     "alpha": "100",
     "special": {
-        "background": "#12133a",
-        "foreground": "#e9deed",
-        "cursor": "#e9deed"
+        "background": "#000000",
+        "foreground": "#eaccab",
+        "cursor": "#eaccab"
     },
     "colors": {
-        "color0": "#12133a",
-        "color1": "#8E77C8",
-        "color2": "#B18EB3",
-        "color3": "#8293D3",
-        "color4": "#A59BDA",
-        "color5": "#D0A8C0",
-        "color6": "#D2AED7",
-        "color7": "#e9deed",
-        "color8": "#a39ba5",
-        "color9": "#8E77C8",
-        "color10": "#B18EB3",
-        "color11": "#8293D3",
-        "color12": "#A59BDA",
-        "color13": "#D0A8C0",
-        "color14": "#D2AED7",
-        "color15": "#e9deed"
+        "color0": "#0c0603",
+        "color1": "#C10000",
+        "color2": "#D02E1E",
+        "color3": "#AD532B",
+        "color4": "#C36A3D",
+        "color5": "#D07445",
+        "color6": "#709552",
+        "color7": "#eaccab",
+        "color8": "#a38e77",
+        "color9": "#C10000",
+        "color10": "#D02E1E",
+        "color11": "#AD532B",
+        "color12": "#C36A3D",
+        "color13": "#D07445",
+        "color14": "#709552",
+        "color15": "#eaccab"
     }
 }
-

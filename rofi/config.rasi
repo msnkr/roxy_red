@@ -33,7 +33,7 @@ configuration {
 /*	cycle: true;*/
 /*	sidebar-mode: false;*/
 /*	eh: 1;*/
-/*	auto-select: true;*/
+/*	auto-select: false;*/
 /*	parse-hosts: false;*/
 /*	parse-known-hosts: true;*/
 /*	combi-modi: "window,run";*/
@@ -44,7 +44,7 @@ configuration {
 /*	line-padding: 1;*/
 /*	filter: ;*/
 /*	separator-style: "dash";*/
-/*	hide-scrollbar: true;*/
+/*	hide-scrollbar: false;*/
 /*	fullscreen: false;*/
 /*	fake-transparency: false;*/
 /*	dpi: -1;*/
@@ -149,5 +149,4 @@ configuration {
 /*	me-select-entry: "MousePrimary";*/
 /*	me-accept-entry: "MouseDPrimary";*/
 /*	me-accept-custom: "Control+MouseDPrimary";*/
-/*  @import "~/.cache/wal/colors-rofi-dark";*/
 }
