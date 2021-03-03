@@ -24,7 +24,7 @@ background-alt = #000000
 foreground = #ff66d9
 foreground-alt = #ff66d9
 primary = #000000
-secondary = #ff0000
+secondary = #ff66d9
 alert = #da0000
 
 [bar/example]
@@ -62,7 +62,7 @@ font-6 = fa-regular-400.ttf: Font Awesome 5 Free Regular:style=Regular:pixelsize
 
 modules-left = i3
 modules-center = xwindow
-modules-right = xbacklight alsa cpu memory wlan battery temperature date
+modules-right = xbacklight alsa filesystem cpu memory wlan battery temperature date
 
 tray-position = none
 tray-padding = 2
@@ -86,31 +86,31 @@ cursor-scroll = ns-resize
 type = internal/xwindow
 label = %title:0:80:...%
 
-# [module/xkeyboard]
-# type = internal/xkeyboard
-# blacklist-0 = num lock
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
 
-# format-prefix = " "
-# format-prefix-foreground = ${colors.foreground-alt}
-# format-prefix-underline = ${colors.secondary}
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-underline = ${colors.secondary}
 
-# label-layout = %layout%
-# label-layout-underline = ${colors.secondary}
+label-layout = %layout%
+label-layout-underline = ${colors.secondary}
 
-# label-indicator-padding = 2
-# label-indicator-margin = 1
-# label-indicator-background = ${colors.secondary}
-# label-indicator-underline = ${colors.secondary}
+label-indicator-padding = 2
+label-indicator-margin = 1
+label-indicator-background = ${colors.secondary}
+label-indicator-underline = ${colors.secondary}
 
-# [module/filesystem]
-# type = internal/fs
-# interval = 25
+[module/filesystem]
+type = internal/fs
+interval = 25
 
-# mount-0 = /
+mount-0 = /
 
-# label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
-# label-unmounted = %mountpoint% not mounted
-# label-unmounted-foreground = ${colors.foreground-alt}
+label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.foreground-alt}
 
 [module/bspwm]
 type = internal/bspwm
@@ -132,7 +132,7 @@ label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 2
 
 ; Separator in between workspaces
-; label-separator = |
+label-separator = |
 
 [module/i3]
 type = internal/i3
@@ -148,8 +148,7 @@ ws-icon-1 = 2;
 ws-icon-2 = 3;
 ws-icon-3 = 4;
 ws-icon-4 = 5;
-ws-icon-5 = 6;
-ws-icon-6 = 7;
+
 
 label-mode-padding = 2
 label-mode-foreground = #000
@@ -177,7 +176,7 @@ label-urgent-background = ${colors.alert}
 label-urgent-padding = 2
 
 ; Separator in between workspaces
-; label-separator = |
+label-separator = |
 
 
 [module/mpd]

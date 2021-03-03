@@ -186,16 +186,13 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 # assign [class="Pale moon"] $ws2
 # assign [class="Pcmanfm"] $ws3
 # assign [class="Skype"] $ws5
-assign [class="firefox"] $ws1
-exec_always firefox
+assign [class="qutebrowser"] $ws1
 assign [class="kitty"] $ws2
 exec_always kitty
 assign [class="Code"] $ws3
-exec_always code
 assign [class="Google-chrome"] $ws4
 assign [class="vlc"] $ws5
 assign [class="Transmission-gtk"] $ws6
-assign [class="VirtualBox Machine"] $ws7
 
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
@@ -369,7 +366,7 @@ bindsym $mod+m bar mode toggle
 
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
-  client.focused          #556064 #556064 #80FFF9 #FDF6E3
+  client.focused          #ff66d9 #556064 #80FFF9 #FDF6E3
   client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
   client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
   client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
